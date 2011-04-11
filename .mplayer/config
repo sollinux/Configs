@@ -1,0 +1,5 @@
+subcp = "cp1251"
+subfont-text-scale = "3"
+subfont-blur = "8"
+subfont-outline = "8"
+font = "tahoma.ttf"

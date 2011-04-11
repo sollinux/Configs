@@ -1,0 +1,59 @@
+!------COLORS----------------------
+!background and foreground
+*foreground: Lightgray
+!*background:#262626
+*background:#1B1D1E
+!black
+*color0:    #444444
+*color8:   #757575
+!red
+*color1:   #EA6868
+*color9:   #FF7272
+!green
+*color2:   #ABCB8D
+*color10:   #AFD78A
+!yellow
+*color3:   #E8AE5B
+*color11:   #FFA75D
+!blue
+*color4:   #3f6e89
+*color12:   #67CDE9
+!magenta
+*color5:   #E2BAF1
+*color13:   #ECAEE9
+!cyan
+*color6:   #01C1BA
+*color14:   #36FFFC
+!white
+*color7:   #D1D1D1
+*color15:   #FFFFFF
+!---------------------------------
+
+
+
+
+!--------XTERM---------
+XTerm*boldMode: false
+XTerm*font: -*-fixed-medium-r-*-*-13-*-*-*-*-*-iso10646-*
+XTerm*cursorColor: cyan
+XTerm*saveLines: 10000
+!----------------------
+
+
+ 
+!----------URXVT---------
+urxvt*font: -*-fixed-medium-r-*-*-13-*-*-*-*-*-iso10646-*
+URxvt*cursorColor: Cyan
+URxvt*saveLines: 20000
+URxvt*scrollBar: false
+URxvt*transparent: false
+URxvt*shading: 15
+!-----------------------
+
+
+!yanking
+URxvt.perl-ext-common:	default,url-select,keyboard-select
+URxvt.keysym.M-u:	perl:url-select:select_next
+URxvt.urlLauncher:	firefox
+URxvt.underlineURLs:	true
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate

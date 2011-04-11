@@ -1,0 +1,14 @@
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+include "/home/sol/.themes/ACYL_gtk_0.4/gtk-2.0/gtkrc"
+
+style "user-font" {
+	font_name = "Terminus 9"
+}
+
+widget_class "*" style "user-font"
+
+gtk-font-name="Terminus 9"
+
+include "/home/sol/.gtkrc.mine"
+
+# -- THEME AUTO-WRITTEN DO NOT EDIT

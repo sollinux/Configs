@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/sol/.dosbox'
+let g:netrw_dirhist_2='/home/sol/.dosbox/drive_c/asm/clilib/clilib'
+let g:netrw_dirhist_3='/home/sol/.dosbox/drive_c/asm/lists/listlib'
+let g:netrw_dirhist_4='/home/sol/.dosbox/drive_c/asm/lists/numlib'
+let g:netrw_dirhist_5='/etc/X11/xinit'
+let g:netrw_dirhist_6='/home/sol/.dosbox/drive_c/asm/numlib'
+let g:netrw_dirhist_7='/home/sol/.dosbox/drive_c/asm/files2/fslib'
+let g:netrw_dirhist_8='/home/sol/.dosbox/drive_c/asm/files2/numlib'

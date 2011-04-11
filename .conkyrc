@@ -1,0 +1,10 @@
+background no
+out_to_console yes
+update_interval 5.0
+total_run_times 0
+uppercase no
+use_spacer none
+
+
+TEXT 
+ ^fg(\#1c94e0)^i(/home/sol/.dzen2/xbm8x8/temp.xbm) Temp: ${exec cat ~/.conky_scripts/weather} ^fg()| ^fg(\#e01c1c)^i(/home/sol/.dzen2/xbm8x8/mail.xbm) Gmail: ${exec cat ~/.conky_scripts/mail} ^fg()| ^fg(\#d8dbd8)^i(/home/sol/.dzen2/xbm8x8/cpu.xbm) CPU: ${cpu cpu0}% ^fg()| ^fg(\#13dc26)^i(/home/sol/.dzen2/xbm8x8/mem.xbm) MEM: $memperc% ^fg()|^fg(\#1387e0) Uptime: ${uptime} ^fg()| ^fg(\d8dbd8)^i(/home/sol/.dzen2/xbm8x8/fs_02.xbm) Root: ${fs_free_perc /}% Home: ${fs_free_perc /home}% ^fg()| ^fg(\#e0de13)^i(/home/sol/.dzen2/xbm8x8/bat_full_01.xbm) BAT: ${exec ~/.conky_scripts/battery.sh} ^fg()| ^fg(\#1c94e0)^i(/home/sol/.dzen2/xbm8x8/wifi_01.xbm) Wi-fi: ${exec iwconfig wlan0 | grep Link | awk '{print $2}' | sed 's/Quality=//'} ^fg()| ^fg(\#d8dbd8)Time: ${time %H:%M} ^fg() 

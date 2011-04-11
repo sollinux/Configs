@@ -1,0 +1,6 @@
+"Show cmdline
+set go=Cs
+
+"-----KEYS--------
+"Zoom - ^Z
+map <silent> <C-z> :js window.content.document.toggleImageSize();<CR> 
